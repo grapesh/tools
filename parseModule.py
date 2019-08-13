@@ -29,7 +29,7 @@ def printFunctions(functions, pyFile, reclevel=0):
 #======================================================================
 def recursive (files, reclevel=0):
     """
-    Recursively walks on files and folders
+    Recursively walks on files and folders                
     """
     for f in files:
         if f.endswith('.py'):
@@ -42,7 +42,11 @@ def recursive (files, reclevel=0):
 if __name__ == "__main__":
 
     #modulePath='C:/Your/Path/To/Python/Repository/'
-    modulePath = str(sys.argv[1])
+    try:
+        modulePath = str(sys.argv[1])
+    except:
+        print 'Use python parseModule.py /path/to/your/module'
+        exit()
 
     print 'Repository: ', modulePath
     files = sorted(glob.glob(modulePath+'/*'), key=os.path.isdir)
