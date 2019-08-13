@@ -1,0 +1,113 @@
+Repository:  C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\setup.py
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\version.py
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\__init__.py
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\data\atcf.py
+____________ read()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\data\coops.py
+____________ getData()
+____________ readData()
+____________ getStationInfo()
+____________ getActiveStations()
+____________ createAnomalyTable()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\data\usgs.py
+____________ readHighWaterMarks()
+____________ readStormSurgeSensors()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\data\__init__.py
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\methods\convert.py
+____________ ft2meters()
+____________ mph2knots()
+____________ mph2mps()
+____________ mph2kmh()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\methods\interp.py
+____________ nearest()
+____________ distanceMatrix()
+____________ shepardIDW()
+____________ taperLinear()
+____________ taperExp()
+____________ retime()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\methods\statistics.py
+____________ rms()
+____________ bias()
+____________ peak()
+____________ plag()
+____________ varExplained()
+____________ skill()
+____________ rValue()
+____________ metrics()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\methods\__init__.py
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\models\adcirc.py
+____________ readGrid()
+____________ readTimeSeries()
+____________ readSurfaceField()
+____________ readSurfaceField_ascii()
+____________ computeMax()
+____________ readFort14()
+____________ readStationsList()
+____________ readFort15()
+____________ writeOffset63()
+____________ readOffset63()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\models\estofs.py
+____________ findLatestCycle()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\models\etss.py
+____________ findLatestCycle()
+____________ readStations()
+____________ readStation()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\models\__init__.py
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\oper\sys.py
+____________ timeStamp()
+____________ stampToDate()
+____________ dateToStamp()
+____________ config()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\oper\transfer.py
+____________ download()
+____________ refresh()
+____________ readlines()
+____________ readlines_ssl()
+____________ upload()
+____________ cleanup()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\oper\__init__.py
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\plot\map.py
+____________ set()
+____________ addField()
+____________ addCoastline()
+____________ addCities()
+____________ addPoints()
+____________ addGridLines()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\plot\scatter.py
+____________ set()
+____________ add()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\plot\series.py
+____________ set()
+____________ add()
+____________ addDatums()
+____________ addLevels()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\plot\track.py
+____________ add()
+____________ quadrants()
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\plot\__init__.py
+
+C:\Users\Sergey.Vinogradov\Documents\Python\csdlpy2\csdlpy2\test\self.py
